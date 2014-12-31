@@ -1,0 +1,4 @@
+E:\公司网站\hirain\hirain\bin\hirain.dll
+E:\公司网站\hirain\hirain\bin\hirain.pdb
+E:\公司网站\hirain\hirain\obj\Debug\hirain.dll
+E:\公司网站\hirain\hirain\obj\Debug\hirain.pdb

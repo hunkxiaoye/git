@@ -1,0 +1,1 @@
+ (function(){ window.pinganCert.init('hudai.com');  window.pinganCert.showCert("p2p","bottomimagesmall","645141104000008721612"); })(window,document);

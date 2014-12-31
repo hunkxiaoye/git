@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{419F6266-069F-4C7C-8CA2-8B116D6FD245}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>hirain</RootNamespace>
+    <AssemblyName>hirain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AllLogo.aspx" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\hdcoinpublic.css" />
+    <Content Include="css\hd_supply_style.css" />
+    <Content Include="css\newcss20140507.css" />
+    <Content Include="css\style.css" />
+    <Content Include="gerenxinxi.aspx" />
+    <Content Include="images\Appma.png" />
+    <Content Include="images\baobiao.png" />
+    <Content Include="images\beian.png" />
+    <Content Include="images\btn_conus.png" />
+    <Content Include="images\dyb_list.jpg" />
+    <Content Include="images\getKaptchaImage.jpg" />
+    <Content Include="images\hand.png" />
+    <Content Include="images\home.png" />
+    <Content Include="images\hui.png" />
+    <Content Include="images\kefu_01.png" />
+    <Content Include="images\kexin.png" />
+    <Content Include="images\p2p_bottom_small_img.jpg" />
+    <Content Include="images\qrcode.jpg" />
+    <Content Include="images\ryb_list.jpg" />
+    <Content Include="images\shili1.jpg" />
+    <Content Include="images\shili2.jpg" />
+    <Content Include="images\shili3.png" />
+    <Content Include="images\shili4.png" />
+    <Content Include="images\sina.png" />
+    <Content Include="images\top-bg_01.jpg" />
+    <Content Include="images\tubiao.jpg" />
+    <Content Include="images\tubiao1.jpg" />
+    <Content Include="images\wangluo.png" />
+    <Content Include="images\weixin-code.jpg" />
+    <Content Include="images\weixin.png" />
+    <Content Include="images\xs_07.jpg" />
+    <Content Include="images\yyb_list.jpg" />
+    <Content Include="images\zhi.png" />
+    <Content Include="images\报表.jpg" />
+    <Content Include="Index.aspx" />
+    <Content Include="indexs.htm" />
+    <Content Include="InsertLogo.aspx" />
+    <Content Include="InsertPost.aspx" />
+    <Content Include="InvestShow.aspx" />
+    <Content Include="js\adv.js" />
+    <Content Include="js\ajax_bid_list.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\cert.js" />
+    <Content Include="js\certShow.js" />
+    <Content Include="js\countdown.js" />
+    <Content Include="js\hm.js" />
+    <Content Include="js\hotimg.js" />
+    <Content Include="js\jquery-1.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\kaptcha.js" />
+    <Content Include="js\kefu.js" />
+    <Content Include="js\mba.js" />
+    <Content Include="js\mediav.js" />
+    <Content Include="js\menu.js" />
+    <Content Include="js\mv.js" />
+    <Content Include="js\mvl.js" />
+    <Content Include="js\rt.js" />
+    <Content Include="js\show_new_div.js" />
+    <Content Include="Logins.aspx" />
+    <Content Include="ProjeAdvice.aspx" />
+    <Content Include="ProjectDetails.aspx" />
+    <Content Include="ProjectInfo.aspx" />
+    <Content Include="Project_Info.aspx" />
+    <Content Include="Registers.aspx" />
+    <Content Include="ShowLogo.aspx" />
+    <Content Include="UpdateUser.aspx" />
+    <Content Include="UserInfo.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="fangchandiya.aspx" />
+    <Content Include="qiyejinying.aspx" />
+    <Content Include="xinshouyindao%28tou%29.htm" />
+    <Content Include="xinshouyindao（rong）.htm" />
+    <Content Include="yinhangchanping.aspx" />
+    <Content Include="zhumengbao.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllLogo.aspx.cs">
+      <DependentUpon>AllLogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllLogo.aspx.designer.cs">
+      <DependentUpon>AllLogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="data.cs" />
+    <Compile Include="gerenxinxi.aspx.cs">
+      <DependentUpon>gerenxinxi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gerenxinxi.aspx.designer.cs">
+      <DependentUpon>gerenxinxi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertLogo.aspx.cs">
+      <DependentUpon>InsertLogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertLogo.aspx.designer.cs">
+      <DependentUpon>InsertLogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertPost.aspx.cs">
+      <DependentUpon>InsertPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertPost.aspx.designer.cs">
+      <DependentUpon>InsertPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InvestShow.aspx.cs">
+      <DependentUpon>InvestShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InvestShow.aspx.designer.cs">
+      <DependentUpon>InvestShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logins.aspx.cs">
+      <DependentUpon>Logins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logins.aspx.designer.cs">
+      <DependentUpon>Logins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjeAdvice.aspx.cs">
+      <DependentUpon>ProjeAdvice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjeAdvice.aspx.designer.cs">
+      <DependentUpon>ProjeAdvice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDetails.aspx.cs">
+      <DependentUpon>ProjectDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjectDetails.aspx.designer.cs">
+      <DependentUpon>ProjectDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectInfo.aspx.cs">
+      <DependentUpon>ProjectInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjectInfo.aspx.designer.cs">
+      <DependentUpon>ProjectInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project_Info.aspx.cs">
+      <DependentUpon>Project_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project_Info.aspx.designer.cs">
+      <DependentUpon>Project_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registers.aspx.cs">
+      <DependentUpon>Registers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registers.aspx.designer.cs">
+      <DependentUpon>Registers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowLogo.aspx.cs">
+      <DependentUpon>ShowLogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowLogo.aspx.designer.cs">
+      <DependentUpon>ShowLogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateUser.aspx.cs">
+      <DependentUpon>UpdateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateUser.aspx.designer.cs">
+      <DependentUpon>UpdateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fangchandiya.aspx.cs">
+      <DependentUpon>fangchandiya.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fangchandiya.aspx.designer.cs">
+      <DependentUpon>fangchandiya.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="qiyejinying.aspx.cs">
+      <DependentUpon>qiyejinying.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="qiyejinying.aspx.designer.cs">
+      <DependentUpon>qiyejinying.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yinhangchanping.aspx.cs">
+      <DependentUpon>yinhangchanping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yinhangchanping.aspx.designer.cs">
+      <DependentUpon>yinhangchanping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zhumengbao.aspx.cs">
+      <DependentUpon>zhumengbao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zhumengbao.aspx.designer.cs">
+      <DependentUpon>zhumengbao.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2823</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
